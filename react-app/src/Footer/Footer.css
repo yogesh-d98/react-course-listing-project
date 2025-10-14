@@ -1,0 +1,15 @@
+.footer {
+  background-color: #1a1a1a;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 16px;
+  position: fixed; /* footer sticks to bottom */
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0 -2px 5px rgba(0,0,0,0.3);
+}
+
+.footer span {
+  color: #ff4d4d; /* make the heart red */
+}
