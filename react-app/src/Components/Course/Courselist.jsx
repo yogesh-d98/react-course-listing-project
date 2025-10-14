@@ -1,7 +1,7 @@
 import Course from './Coursemain';
 // import { courses } from '../mock-data/Mockdata';
 import { useEffect, useState } from 'react';
-import { useFetch } from '../useFetch';
+import { useFetch } from '../../useFetch';
 function Courselist() {
     // const [courseData, setCourseData] = useState(null);
 
