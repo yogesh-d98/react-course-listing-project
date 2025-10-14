@@ -1,21 +1,26 @@
-.card{
-  background-color:aqua;
-  max-width: 200px;
-  max-height: 400px;
+
+.card {
+  background-color: aquamarine;
+  max-width: 90%;       /* relative width for small screens */
+  width: 200px;         /* desktop fallback */
   border: 1px solid black;
   border-radius: 5px;
   font-family: sans-serif;
   margin: 10px;
-  padding:1px;
+  padding: 5px;
   text-align: center;
-  display: inline-block;
 }
 
-.card img{
-  width: 190px;
-  margin:1px;
-  border:none;
-  /* padding: -12px; */
-  /* margin: auto;
-  display: block; */
+.card img {
+  width: 100%;          /* full width of card */
+  height: auto;         /* maintain aspect ratio */
+  border: none;
+}
+
+
+.course-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* center cards */
+  gap: 10px; /* spacing between cards */
 }
