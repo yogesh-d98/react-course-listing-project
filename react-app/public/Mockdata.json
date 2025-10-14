@@ -6,7 +6,7 @@
             "name": "HTML",
             "price": 200,
             "rating": 4,
-            "img": "http://localhost:3000/assets/HTML.png",
+            "img": "/assets/HTML.png",
             "description": "Check here for HTML Course"
         },
         {
@@ -14,7 +14,7 @@
             "name": "CSS",
             "price": 150,
             "rating": 4,
-            "img": "http://localhost:3000/assets/CSS.jpeg",
+            "img": "/assets/CSS.jpeg",
             "description": "Check here for CSS Course"
         },
         {
@@ -22,7 +22,7 @@
             "name": "JS",
             "price": 250,
             "rating": 4,
-            "img": "http://localhost:3000/assets/JS2.png",
+            "img": "/assets/JS2.png",
             "description": "Check here for JS Course"
         },
         {
@@ -30,7 +30,7 @@
             "name": "REACT",
             "price": 350,
             "rating": 4,
-            "img": "http://localhost:3000/assets/React.png",
+            "img": "/assets/React.png",
             "description": "Check here for REACT Course"
         }
     ]

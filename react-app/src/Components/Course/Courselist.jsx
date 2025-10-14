@@ -7,14 +7,16 @@ function Courselist() {
 
 
     // const [courseData, dummy, error] = useFetch('http://localhost:3000/courses'); 
-    const [fetchedData, dummy, error] = useFetch('http://localhost:3000/courses');
+    const [fetchedData, dummy, error] = useFetch('/Mockdata.json');
+    console.log(fetchedData, "fetch data")
     // sending url as an argument - since in handle delete we need to set the updated data
     // but in using usefetch we cannot set data there so maintainig a local state when use fetch is available and setting a data there will work
     const [courseData, setCourseData] = useState([]);
 
     useEffect(() => {
-        if (fetchedData) setCourseData(fetchedData);
+        if (fetchedData) setCourseData(fetchedData.courses);
     }, [fetchedData]);
+
     if (!courseData) {
         return <>
             {!error && <img src="/assets/Loading_icon.gif" alt="Loading..." />}
