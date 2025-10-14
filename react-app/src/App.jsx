@@ -2,11 +2,15 @@ import { useState } from 'react'
 // import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import Navbar from './Components/Navbar/Navbar'
-import Course from './Components/Course/Coursemain'
-import Footer from './Components/Footer/Footer'
+// import Navbar from './Components/Navbar/Navbar'
+// import Course from './Components/Course/Coursemain'
+// import Footer from './Components/Footer/Footer'
 // import HTML from './assets/HTML.png';
-import Courselist from './Components/Course/Courselist'
+// import Courselist from './Components/Course/Courselist'
+import Navbar from './Components/Navbar/Navbar.jsx'
+import Course from './Components/Course/Coursemain.jsx'
+import Footer from './Components/Footer/Footer.jsx'
+import Courselist from './Components/Course/Courselist.jsx'
 
 
 function App() {
