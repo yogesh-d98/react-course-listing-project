@@ -31,6 +31,7 @@ function Course({ course, handleDeleteCourse }) {
 
     function Applydiscount(discountAmount) {
         setDiscount(discount - discountAmount);
+         alert(` Rs.${discountAmount} dicount applied for course ${name}`);
         setDiscountApplied(true);
     }
 
