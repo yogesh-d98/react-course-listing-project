@@ -73,49 +73,7 @@ Courses data is served from mock-data/Mockdata.json.
 
 Static images are served from public/assets or mock-data/assets.
 
-Folder Structure
-react-interview-prep/
-└─ react-app/
-   ├─ public/
-   │  ├─ assets/                  # Static assets accessible publicly
-   │  │  ├─ Loading_icon.gif      # Loader GIF for fetching data
-   │  │  └─ vite.svg              # Vite logo
-   │  └─ index.html               # HTML entry point
-   │
-   ├─ src/
-   │  ├─ Course/                  # Components related to course listing
-   │  │  ├─ Course.module.css     # CSS module for Course styling
-   │  │  ├─ Courselist.jsx        # Component to list all courses
-   │  │  └─ Coursemain.jsx        # Individual course card component
-   │  │
-   │  ├─ Footer/                  # Footer component
-   │  │  ├─ Footer.css            # Footer styling
-   │  │  └─ Foter.jsx             # Footer component
-   │  │
-   │  ├─ mock-data/               # Mock API data and static assets
-   │  │  ├─ assets/               # Images used for courses
-   │  │  │  ├─ CSS.jpeg
-   │  │  │  ├─ HTML.png
-   │  │  │  ├─ JS.png
-   │  │  │  ├─ JS2.png
-   │  │  │  ├─ React.png
-   │  │  │  └─ react.svg
-   │  │  ├─ Mockdata.js           # Optional JS version of mock data
-   │  │  └─ Mockdata.json         # JSON data for courses (used by json-server)
-   │  │
-   │  ├─ App.css                   # Global App styles
-   │  ├─ App.jsx                   # Main App component
-   │  ├─ index.css                 # Global CSS
-   │  ├─ main.jsx                  # React DOM entry point
-   │  ├─ Navbar.jsx                # Navbar component
-   │  └─ useFetch.jsx              # Custom hook for fetching data
-   │
-   ├─ .gitignore                   # Git ignore configuration
-   ├─ eslint.config.js             # ESLint configuration
-   ├─ package.json                 # Project dependencies and scripts
-   ├─ package-lock.json            # Exact versions of installed dependencies
-   ├─ README.md                    # Project README
-   └─ vite.config.js               # Vite build configuration
+
 Notes:
 
 public/assets/
