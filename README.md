@@ -5,6 +5,16 @@ This project is a React-based course listing application where users can view, p
 
 The data for courses is fetched from a mock API using json-server, allowing frontend development with realistic asynchronous data fetching.
 
+## 🌐 Live Demo
+
+Check out the live version of this project deployed on Vercel:
+
+[React Interview Prep - Live Demo](https://react-course-listing-project.vercel.app/)
+
+[![Vercel](https://img.shields.io/badge/Live-Demo-blue?style=flat-square)](https://react-course-listing-project.vercel.app/)
+
+https://react-course-listing-project.vercel.app/
+
 Features
 
 Course Listing
